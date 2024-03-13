@@ -1,0 +1,94 @@
+/* COLORS */
+
+:root {
+  /* Primary */
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+
+  /* Neutral */
+  --darkblue: hsl(234, 12%, 34%);
+  --greyblue: hsl(229, 6%, 66%);
+  --lightgrey: hsl(0, 0%, 98%);
+}
+
+html {
+  background-color: var(--lightgrey);
+  color: var(--darkblue);
+}
+
+body {
+  display: grid;
+  place-content: center;
+
+  min-height: 100vh;
+  padding: 2.2rem;
+  margin: 2.2rem auto;
+  font-family: "Poppins";
+  font-size: 1rem;
+}
+
+.title {
+  font-weight: 200;
+}
+
+.title-powered {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.title-desc {
+  color: var(--greyblue);
+  margin-bottom: 4rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.card {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: var(--lightgrey);
+
+  max-width: 325px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px var(--greyblue);
+}
+
+.card-tag {
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+}
+
+.card-desc {
+  color: var(--greyblue);
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card--supervisor {
+  border-top: 4px solid var(--cyan);
+}
+
+.card--team-builder {
+  border-top: 4px solid var(--red);
+}
+
+.card--karma {
+  border-top: 4px solid var(--orange);
+}
+
+.card--calculator {
+  border-top: 4px solid var(--blue);
+}
+
+.footer {
+  display: grid;
+  place-content: center;
+  font-size: 0.6rem;
+}
