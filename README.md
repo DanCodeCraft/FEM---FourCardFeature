@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/DanCodeCraft/FEM---FourCardFeature)
+- Solution URL: [GitHub](https://github.com/DanCodeCraft/FEM-FourCardFeature)
 - Live Site URL: [Live Site](https://your-live-site-url.com)
 
 ## My process
